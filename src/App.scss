@@ -7,7 +7,9 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 // NAVBAR
 
 .navbar {
@@ -92,7 +94,10 @@ nav.fill ul li a:hover:after {
   text-decoration: underline;
   width: 100vw;
   position: relative;
-  top: -50px;
+  top: -60px;
+  color: white;
+  font-size: 1.6em;
+  text-shadow: #474747 3px 5px 2px;
 }
 
 .discover_img--container {
@@ -116,7 +121,6 @@ nav.fill ul li a:hover:after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
   position: absolute;
   z-index: 1;
 }
@@ -153,6 +157,12 @@ nav.fill ul li a:hover:after {
     margin-top: 80px;
     margin-left: 20px;
   }
+
+  .discover_btn {
+    color: black;
+    left: 150px;
+    top: -150px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -182,6 +192,9 @@ nav.fill ul li a:hover:after {
     position: relative;
     top: -200px;
     font-size: 1.5em;
+    color: black;
+    top: -200px;
+    left: -250px;
   }
 }
 
@@ -213,5 +226,50 @@ nav.fill ul li a:hover:after {
     top: -400px;
     right: 230px;
     font-size: 2em;
+    color: black;
+    top: -450px;
+    left: -250px;
   }
 }
+
+// UNIQUE
+
+.unique_img {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.unique_img--size1,
+.unique_img--size2,
+.unique_img--size3 {
+  width: 100vw;
+}
+
+.unique_h1 {
+  font-size: 4em;
+}
+
+.unique_p {
+  text-align: center;
+  margin: 15px;
+  font-size: 1.2em;
+}
+// .unique_img--size1 {
+//   height: 40rem;
+//   width: 30rem;
+// }
+
+// .unique_img--size2 {
+//   height: 30rem;
+//   width: 20rem;
+// }
+
+// .unique_img--size3 {
+//   height: 20rem;
+//   width: 20rem;
+// }
+
+// .unique_row--container {
+//   display: flex;
+//   justify-content: space-around;
+// }
