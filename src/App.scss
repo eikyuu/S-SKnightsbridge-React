@@ -123,13 +123,15 @@ nav.fill ul li a:hover:after {
 
 @media (min-width: 768px) {
   .discover_img1 {
-    height: 50vh;
+    height: 22rem;
     width: 50vw;
   }
 
   .discover_img2 {
-    height: 12rem;
-    width: 23rem;
+    height: 250px;
+    width: 25vh;
+    position: relative;
+    top: -30px;
   }
 
   .discover_img1--flex {
@@ -149,12 +151,13 @@ nav.fill ul li a:hover:after {
     position: absolute;
     z-index: 1;
     margin-top: 80px;
+    margin-left: 20px;
   }
 }
 
 @media (min-width: 1200px) {
   .discover_img1 {
-    height: 100vh;
+    height: 40rem;
     width: 50vw;
     z-index: 1000;
     position: relative;
@@ -171,21 +174,20 @@ nav.fill ul li a:hover:after {
     height: 250px;
     width: 380px;
     position: relative;
-    top: -150px;
+    top: -60px;
   }
 
   .discover_btn {
     width: 100vw;
     position: relative;
-    top: -350px;
-    right: 230px;
+    top: -200px;
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 1600px) {
   .discover_img1 {
-    height: 100vh;
+    height: 60rem;
     width: 50vw;
     z-index: 1000;
     position: relative;
