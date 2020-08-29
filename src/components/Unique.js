@@ -18,21 +18,23 @@ const Unique = (props) => {
             eius?
           </p>
         </div>
+        <i
+          class="col mb-4 text-center fa fa-arrow-right"
+          style={{ fontSize: "36px" }}
+        ></i>
       </div>
-      <div className="row unique_row--container">
-        <div className="col unique_img">
-          <img className="unique_img--size1" src={montre4} alt="" />
-        </div>
-        <div className="col unique_img">
-          <img
-            className=" unique_img--size2 d-none d-xl-block"
-            src={montre5}
-            alt=""
-          />
-        </div>
-        <div className="col unique_img d-none d-xl-block">
-          <img className="unique_img--size3" src={montre6} alt="" />
-        </div>
+      <div className="row mt-3 unique_row--container">
+        <img className="unique_img--size1 col-md-3" src={montre4} alt="" />
+        <img
+          className=" unique_img--size2 col-md-3 d-none d-sm-block"
+          src={montre5}
+          alt=""
+        />
+        <img
+          className="unique_img--size3 col-md-3 d-none d-sm-block"
+          src={montre6}
+          alt=""
+        />
       </div>
     </section>
   );

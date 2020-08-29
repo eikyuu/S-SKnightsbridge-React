@@ -135,7 +135,7 @@ nav.fill ul li a:hover:after {
     height: 250px;
     width: 23rem;
     position: relative;
-    top: -30px;
+    top: -25px;
   }
 
   .discover_img1--flex {
@@ -154,7 +154,7 @@ nav.fill ul li a:hover:after {
     font-family: Georgia, "Times New Roman", Times, serif;
     position: absolute;
     z-index: 1;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 20px;
   }
 
@@ -165,10 +165,33 @@ nav.fill ul li a:hover:after {
   }
 }
 
+@media (min-width: 1000px) {
+  .discover_img1 {
+    height: 30rem;
+    width: 50%;
+    z-index: 1000;
+    position: relative;
+    top: 0px;
+  }
+
+  .discover_h1 {
+    font-size: 7em;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+
+  .discover_img2 {
+    height: 250px;
+    width: 380px;
+    position: relative;
+    top: -90px;
+  }
+}
+
 @media (min-width: 1200px) {
   .discover_img1 {
-    height: 40rem;
-    width: 50vw;
+    height: 100vh;
+    width: 50%;
     z-index: 1000;
     position: relative;
     top: -60px;
@@ -176,15 +199,15 @@ nav.fill ul li a:hover:after {
 
   .discover_h1 {
     font-size: 9em;
-    margin-left: 80px;
-    margin-top: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
   }
 
   .discover_img2 {
     height: 250px;
     width: 380px;
     position: relative;
-    top: -60px;
+    top: -290px;
   }
 
   .discover_btn {
@@ -193,15 +216,15 @@ nav.fill ul li a:hover:after {
     top: -200px;
     font-size: 1.5em;
     color: black;
-    top: -200px;
-    left: -250px;
+    top: -350px;
+    left: -220px;
   }
 }
 
 @media (min-width: 1600px) {
   .discover_img1 {
-    height: 60rem;
-    width: 50vw;
+    height: 100vh;
+    width: 50%;
     z-index: 1000;
     position: relative;
     top: -60px;
@@ -210,14 +233,14 @@ nav.fill ul li a:hover:after {
   .discover_h1 {
     font-size: 12em;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .discover_img2 {
     height: 300px;
     width: 450px;
     position: relative;
-    top: -270px;
+    top: -330px;
   }
 
   .discover_btn {
@@ -254,22 +277,15 @@ nav.fill ul li a:hover:after {
   margin: 15px;
   font-size: 1.2em;
 }
-// .unique_img--size1 {
-//   height: 40rem;
-//   width: 30rem;
-// }
 
-// .unique_img--size2 {
-//   height: 30rem;
-//   width: 20rem;
-// }
+@media (min-width: 768px) {
+  .unique_img--size1,
+  .unique_img--size2,
+  .unique_img--size3 {
+    height: 15rem;
+  }
 
-// .unique_img--size3 {
-//   height: 20rem;
-//   width: 20rem;
-// }
-
-// .unique_row--container {
-//   display: flex;
-//   justify-content: space-around;
-// }
+  .unique_row--container {
+    justify-content: space-around;
+  }
+}
