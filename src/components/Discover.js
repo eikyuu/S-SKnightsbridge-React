@@ -14,7 +14,7 @@ const Discover = (props) => {
           <img className="discover_img2" src={montre3} alt="" />
         </div>
       </div>
-      <button className="btn discover_btn">DISCOVER</button>
+      <button className="btn discover_btn">DECOUVRIR</button>
     </section>
   );
 };

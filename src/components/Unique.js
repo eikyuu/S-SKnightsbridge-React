@@ -31,7 +31,7 @@ const Unique = (props) => {
           alt=""
         />
         <img
-          className="unique_img--size3 col-md-3 d-none d-sm-block"
+          className="unique_img--size3 col-md-3 d-none d-xl-block"
           src={montre6}
           alt=""
         />
