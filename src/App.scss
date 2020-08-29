@@ -268,16 +268,22 @@ nav.fill ul li a:hover:after {
 }
 
 .unique_h1 {
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .unique_p {
-  text-align: center;
-  margin: 15px;
-  font-size: 1.2em;
+  max-width: 90%;
+  font-size: 1.4em;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
+  .unique_p {
+    font-size: 1.4em;
+    max-width: 90%;
+    text-align: start;
+  }
+
   .unique_img--size1,
   .unique_img--size2,
   .unique_img--size3 {
@@ -297,6 +303,16 @@ nav.fill ul li a:hover:after {
     .unique_img--size3 {
       height: 30rem;
       min-width: 20rem;
+    }
+
+    .unique_h1 {
+      font-size: 10em;
+    }
+
+    .unique_p {
+      max-width: 400px;
+      text-align: start;
+      font-size: 1.2em;
     }
   }
 

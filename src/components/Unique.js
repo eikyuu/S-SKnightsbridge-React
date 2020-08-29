@@ -8,20 +8,20 @@ const Unique = (props) => {
     <section className="container-fluid unique">
       <div className="row unique_row">
         <div className="col-12 text-center">
-          <h1 className="unique_h1">Unique</h1>
+          <h1 className="unique_h1 mb-5">Unique</h1>
         </div>
-        <div className="row">
-          <p className="col unique_p mb-5">
+        <i
+          class="col-sm-12 mb-4 text-center fa fa-arrow-right"
+          style={{ fontSize: "36px" }}
+        ></i>
+        <div className="row mx-auto">
+          <p className="col-sm-12 unique_p mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur accusantium doloribus, beatae voluptatem aperiam harum
             est distinctio dolores a cum voluptatibus non aliquam recusandae
             eius?
           </p>
         </div>
-        <i
-          class="col mb-4 text-center fa fa-arrow-right"
-          style={{ fontSize: "36px" }}
-        ></i>
       </div>
       <div className="row mt-3 unique_row--container">
         <img className="unique_img--size1 col-md-3" src={montre4} alt="" />
