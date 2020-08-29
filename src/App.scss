@@ -190,7 +190,7 @@ nav.fill ul li a:hover:after {
 
 @media (min-width: 1200px) {
   .discover_img1 {
-    height: 100vh;
+    height: 35rem;
     width: 50%;
     z-index: 1000;
     position: relative;
@@ -207,17 +207,16 @@ nav.fill ul li a:hover:after {
     height: 250px;
     width: 380px;
     position: relative;
-    top: -290px;
+    top: -100px;
   }
 
   .discover_btn {
     width: 100vw;
     position: relative;
-    top: -200px;
     font-size: 1.5em;
     color: black;
-    top: -350px;
-    left: -220px;
+    top: -220px;
+    left: 150px;
   }
 }
 
@@ -288,5 +287,22 @@ nav.fill ul li a:hover:after {
 
   .unique_row--container {
     justify-content: center;
+  }
+  @media (min-width: 1200px) {
+    .unique {
+      margin-top: -60px;
+    }
+    .unique_img--size1,
+    .unique_img--size2,
+    .unique_img--size3 {
+      height: 30rem;
+      min-width: 20rem;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .unique {
+      margin-top: -250px;
+    }
   }
 }
