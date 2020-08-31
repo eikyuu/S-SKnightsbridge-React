@@ -24,14 +24,18 @@ const Unique = (props) => {
         </div>
       </div>
       <div className="row mt-3 unique_row--container">
-        <img className="unique_img--size1 col-md-3" src={montre4} alt="" />
         <img
-          className=" unique_img--size2 col-md-3 d-none d-sm-block"
+          className="unique_img--size1 unique_image--position1 col-md-2"
+          src={montre4}
+          alt=""
+        />
+        <img
+          className=" unique_img--size2 unique_image--position2 col-md-3 d-none d-sm-block"
           src={montre5}
           alt=""
         />
         <img
-          className="unique_img--size3 col-md-3 d-none d-xl-block"
+          className="unique_img--size3 unique_image--position3 col-md-2 d-none d-xl-block"
           src={montre6}
           alt=""
         />

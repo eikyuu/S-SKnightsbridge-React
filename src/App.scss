@@ -298,27 +298,85 @@ nav.fill ul li a:hover:after {
     .unique {
       margin-top: -60px;
     }
-    .unique_img--size1,
-    .unique_img--size2,
-    .unique_img--size3 {
+
+    .unique_img--size1 {
+      height: 40rem;
+      min-width: 30rem;
+    }
+
+    .unique_img--size2 {
       height: 30rem;
       min-width: 20rem;
     }
 
+    .unique_img--size3 {
+      height: 15rem;
+      min-width: 15rem;
+    }
+
     .unique_h1 {
       font-size: 10em;
+      color: black;
     }
 
     .unique_p {
       max-width: 400px;
       text-align: start;
-      font-size: 1.2em;
+      font-size: 1em;
+      margin-left: 100px;
+    }
+
+    .unique_image--position1 {
+      position: relative;
+      bottom: 370px;
+      right: 100px;
+      z-index: -1;
+    }
+
+    .unique_image--position2 {
+      position: relative;
+      right: 65px;
+    }
+
+    .unique_image--position3 {
+      position: relative;
+      bottom: 150px;
     }
   }
 
   @media (min-width: 1600px) {
     .unique {
       margin-top: -250px;
+    }
+
+    .unique_h1 {
+      font-size: 15em;
+      color: black;
+    }
+
+    .unique_img--size1 {
+      height: 45rem;
+      min-width: 35rem;
+    }
+
+    .unique_img--size2 {
+      height: 35rem;
+      min-width: 20rem;
+    }
+
+    .unique_img--size3 {
+      height: 20rem;
+      min-width: 25rem;
+    }
+
+    .unique_p {
+      margin-left: 20px;
+      font-size: 1.2em;
+    }
+
+    .unique_image--position1 {
+      bottom: 430px;
+      right: 100px;
     }
   }
 }
