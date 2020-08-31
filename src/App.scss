@@ -324,23 +324,26 @@ nav.fill ul li a:hover:after {
       text-align: start;
       font-size: 1em;
       margin-left: 100px;
+      margin-top: -80px;
     }
 
     .unique_image--position1 {
       position: relative;
-      bottom: 350px;
+      bottom: 250px;
       right: 100px;
       z-index: -1;
     }
 
     .unique_image--position2 {
       position: relative;
-      right: 65px;
+      top: 50px;
+      right: 35px;
     }
 
     .unique_image--position3 {
       position: relative;
-      bottom: 150px;
+      bottom: 120px;
+      left: 570px;
     }
 
     .fa-arrow-right {
@@ -381,8 +384,16 @@ nav.fill ul li a:hover:after {
     }
 
     .unique_image--position1 {
-      bottom: 430px;
+      bottom: 330px;
       right: 100px;
+    }
+
+    .unique_image--position2 {
+      right: 50px;
+    }
+
+    .unique_image--position3 {
+      left: 80px;
     }
 
     .fa-arrow-right {

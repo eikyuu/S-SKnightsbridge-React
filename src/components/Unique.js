@@ -15,7 +15,7 @@ const Unique = (props) => {
           style={{ fontSize: "36px" }}
         ></i>
         <div className="row mx-auto">
-          <p className="col-sm-12 unique_p mb-5">
+          <p className="col-sm-12 unique_p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur accusantium doloribus, beatae voluptatem aperiam harum
             est distinctio dolores a cum voluptatibus non aliquam recusandae
