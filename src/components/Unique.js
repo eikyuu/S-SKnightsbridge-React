@@ -11,7 +11,7 @@ const Unique = (props) => {
           <h1 className="unique_h1 mb-5">Unique</h1>
         </div>
         <i
-          class="col-sm-12 mb-4 text-center fa fa-arrow-right"
+          className="col-sm-12 mb-4 text-center fa fa-arrow-right"
           style={{ fontSize: "36px" }}
         ></i>
         <div className="row mx-auto">
