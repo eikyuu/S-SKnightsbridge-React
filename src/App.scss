@@ -267,6 +267,11 @@ nav.fill ul li a:hover:after {
   width: 100vw;
 }
 
+.unique_img--size1 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .unique_h1 {
   font-size: 5em;
 }
@@ -294,6 +299,7 @@ nav.fill ul li a:hover:after {
   .unique_row--container {
     justify-content: center;
   }
+
   @media (min-width: 1200px) {
     .unique {
       margin-top: -60px;
@@ -400,5 +406,84 @@ nav.fill ul li a:hover:after {
       left: 500px;
       bottom: 180px;
     }
+  }
+}
+
+// ABOUT
+@media (min-width: 1200px) {
+  .div_about_p {
+    margin-top: -450px;
+    margin-left: 700px;
+  }
+  .about_p {
+    color: white;
+    z-index: 1;
+    max-width: 400px;
+    font-size: 1.2em;
+  }
+
+  .about_h1 {
+    font-size: 9em;
+    margin-left: 500px;
+    position: relative;
+    top: 350px;
+    color: white;
+    z-index: 1;
+  }
+
+  .about_btn {
+    margin-top: -400px;
+    margin-left: -400px;
+    color: white;
+    z-index: 1;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 1450px) {
+  .about {
+    margin-top: -150px;
+  }
+
+  .div_about_p {
+    margin-top: -650px;
+    margin-left: 850px;
+  }
+  .about_p {
+    color: white;
+    z-index: 1;
+    max-width: 400px;
+    font-size: 1.2em;
+  }
+
+  .about_h1 {
+    font-size: 10em;
+    margin-left: 600px;
+    position: relative;
+    top: 350px;
+  }
+
+  .about_btn {
+    margin-top: -800px;
+    margin-left: -400px;
+    color: white;
+    z-index: 1;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 1800px) {
+  .div_about_p {
+    margin-top: -900px;
+    margin-left: 1200px;
+  }
+
+  .about_btn {
+    margin-top: -1300px;
+  }
+
+  .about_h1 {
+    font-size: 180px;
+    margin-left: 900px;
   }
 }
