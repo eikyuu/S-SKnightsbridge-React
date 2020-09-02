@@ -1,3 +1,7 @@
+.App {
+  width: auto;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -188,7 +192,7 @@ nav.fill ul li a:hover:after {
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .discover_img1 {
     height: 35rem;
     width: 50%;
