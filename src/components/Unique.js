@@ -16,7 +16,7 @@ const Unique = (props) => {
         ></i>
         <div className="row mx-auto">
           <p className="col-sm-12 unique_p">
-            Lorem ipsume dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur accusantium doloribus, beatae voluptatem aperiam harum
             est distinctio dolores a cum voluptatibus non aliquam recusandae
             eius?
